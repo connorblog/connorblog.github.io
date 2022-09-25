@@ -11,21 +11,22 @@ Slug: ireland-trip
 {{ shrink_lazy_link_img("/images/", "PXL_20220915_182532216-cliffs-of-moher-banner.jpg") }}
 
 Trillian and I visited Ireland for 10 days and I took enough cool pictures that I wanted to share them 
-in a nice way and not on social media sites which are all annoying in their own ways... so I used this 
-as an excuse to set up a blog website which I've wanted to do for a while.
+in a nice way. 
 
-We saw my family, mostly first cousins of my mom (Tim, Donal, Pamela, Tracy, Tara) and their families, 
-which was really great. We also hung out with Socialist Party of Ireland members (ISA) and went to a 
-branch meeting. The trip was a really nice mix of seeing sights and people.
+We saw my family, mostly first cousins of my mom (Tim, Donal, Pamela, Tracy, Tara) 
+and their families, which was really great. We also hung out with Socialist Party of Ireland members 
+(ISA) and went to a branch meeting. And we toured the west coast and middle part of the country. 
+The trip was a really nice mix of seeing sights and people.
 
 You can click on the pictures to view the full res versions, and expand the bottom of sections to see more.
 I took them on my Pixel 6. 
 
 ### Dublin
 
-Dublin was the least picturesque area but still cool. We also had our only rainy day here. 
-We spent two and a half days before getting the car and driving around. 
-Driving was terrifying btw and I thought I was going to die before we started to avoid small rural roads that have an
+Dublin was the least picturesque area but still cool. We also had our only rainy day there. 
+We spent two and a half days there before getting the car and driving around. 
+
+By the way, driving was terrifying and I thought I was going to die before we started to avoid small rural roads that have an
 80 km/h speed limit but don't even fit 2 cars (or worse, fit 2 cars with literally less than 2 feet total buffer space
 between the cars and hedges, cliffs, or stone walls).
 
