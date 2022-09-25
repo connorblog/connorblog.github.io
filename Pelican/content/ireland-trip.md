@@ -95,6 +95,9 @@ it's us
 {{ shrink_lazy_link_img("/images/", "PXL_20220915_114850122-inis-more-fort.jpg") }}
 Ruined fort on Inis Mor built around 1800 by the British to see if Napoleon was invading and light a series of torches like in lord of the rings.
 There's another one between the islands and the cliffs and another 1 or 2 on the cliffs.
+{{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220916_100920847.jpg") }}
+View of Doolin from a little east/inland, coming down the hill from the rural airbnb we stayed at. Clouds on the move.
+In the distance you can see windmills along the coast near Galway.
 </div>
 <h5><button markdown="1" class="collapsible"><b>more Doolin pics --></b></button></h5>
 <div markdown="1" class="content">
@@ -107,7 +110,7 @@ water containment facility disguised as a fort?
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_113325778.PANO.jpg") }}
 Dun Eochla pano
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_110545482.jpg") }}
-mortarless walls (a lot of these structures are original I think but hard to tell what)
+mortarless walls (large parts of these structures are original I think? but hard to tell what)
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_113610344.jpg") }}
 Dun Eochla
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_113416859.jpg") }}
@@ -135,10 +138,8 @@ more bay, animals, windmills
 closeup of some kind of plant
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_184400657.jpg") }}
 some other kind of plant, sun fell behind the clouds on the horizon.
-{{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220916_100920847.jpg") }}
-shot of Doolin from a little east/inland, coming down the hill from the rural airbnb we stayed at. clouds on the move.
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220916_100534911.PANO.jpg") }}
-pano of same
+pano of Doolin from hill
 </p>
 </div>
 
@@ -173,9 +174,8 @@ We spent 2 nights on the Dingle peninsula. There is a road around it called Slea
 that offers nonstop stunning landscape views and some historical stuff.
 
 <div markdown="1">
-{{ shrink_lazy_link_img("/images/", "PXL_20220917_145233837-inis-mor.jpg") }}
-Enclosed "beehive" huts were made by stacking rocks without mortar again, and also date from 500-800 AD I think.
-This view is east inland from the south of the peninsula.
+{{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_151309893.jpg") }}
+lots of Slea Head drive pics from around this beach/peninsula.
 {{ shrink_lazy_link_img("/images/", "PXL_20220917_170602492-lichen-closeup.jpg") }}
 Pretty lichen on a rock
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_170214220.jpg") }}
@@ -193,13 +193,14 @@ this is inch beach on the drive down into the peninsula
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220916_174344738.PANO.jpg") }}
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220916_180320715.PANO.jpg") }}
 inch beach visible on the left
+{{ shrink_lazy_link_img("/images/", "PXL_20220917_145233837-inis-mor.jpg") }}
+Enclosed "beehive" huts were made by stacking rocks without mortar again, and also date from 500-800 AD I think.
+This view is east inland from the south of the peninsula.
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_145023255.jpg") }}
 inside a beehive hut
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_145157835.jpg") }}
 500 AD peasant guy voice: I will not live in the hut. I will not eat the sheep from the rock enclosures.<br>
 1200 AD peasant guy voice: this is what they took from you.
-{{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_151309893.jpg") }}
-lots of Slea Head drive pics from around this beach/peninsula.
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_160044344.jpg") }}
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_162820009.PANO.jpg") }}
 Ireland viewed from the tip of the peninsula
