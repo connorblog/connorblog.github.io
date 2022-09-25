@@ -25,7 +25,7 @@
 </p>
 {%- endmacro %}
 
-{% macro shrink_lazy_link_img(img_folder, img_file) -%}
+
 <!-- 
 NOTE: there is a bug with the interaction between shrinking images and lazyloading them,
 where the image-process plugin won't fix the data-echo tag. My workaround is to manually
@@ -33,13 +33,14 @@ set data-echo={{ img_folder }}derivatives/article/{{ img_file }}, and also to se
 src="{{ img_folder }}{{ img_file }}" for img processing, then switch it back to 
 the preload one for usage.
 -->
+<!-- this one is for processing: -->
+<!-- <img class="image-process-article" alt="{{ img_folder }}{{ img_file }}" src="{{ img_folder }}{{ img_file }}" title="{{ img_folder }}{{ img_file }}", data-echo={{ img_folder }}derivatives/article/{{ img_file }}> -->
+<!-- this one is for using: -->
+{% macro shrink_lazy_link_img(img_folder, img_file) -%}
 <p markdown="1">
 <br>
 <a href="{{ img_folder }}{{ img_file }}" target="_blank">
-  <!-- this one is for processing: -->
-  <!-- <img class="image-process-article" alt="{{ img_folder }}{{ img_file }}" src="{{ img_folder }}{{ img_file }}" title="{{ img_folder }}{{ img_file }}", data-echo={{ img_folder }}derivatives/article/{{ img_file }}> -->
-  <!-- this one is for using: -->
-  <img alt="{{ img_folder }}{{ img_file }}" src="/images/blank.png" title="{{ img_folder }}{{ img_file }}", data-echo={{ img_folder }}derivatives/article/{{ img_file }}>
+<img alt="{{ img_folder }}{{ img_file }}" src="/images/blank.png" title="{{ img_folder }}{{ img_file }}", data-echo={{ img_folder }}derivatives/article/{{ img_file }}>
 </a>
 </p>
 {%- endmacro %}
