@@ -2,7 +2,8 @@ Title: Ireland Trip September 2022
 Date: 2022-9-23
 Slug: ireland-trip
 
-{% from 'templates.html' import link_img %}
+{% from 'templates.html' import lightbox_img %}
+{% from 'templates.html' import lazy_link_img %}
 {% from 'templates.html' import link_img %}
 {% from 'templates.html' import test %}
 
@@ -24,9 +25,9 @@ Driving was terrifying btw and I thought I was going to die before we realized t
 80 km/h speed limit but don't even fit 2 cars (or worse, fit 2 cars with literally less than 2 feet total extra space).
 
 <div markdown="1">
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_134728187.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_134728187.jpg") }}
 the Old Library at Trinity college. lots of very old books incl the Book of Kells from 800 AD. prob not worth the admission fee
-{{ link_img("/images/PXL_20220912_142613545-Connolly.jpg") }}
+{{ lazy_link_img("/images/PXL_20220912_142613545-Connolly.jpg") }}
 James Connolly, revolutionary socialist and trade unionist, martyred during the Easter Rising.
 The Big Dipper behind him as a plow symbolizes that labour should own everything up to the stars. Pretty cool.
 
@@ -38,34 +39,34 @@ industrial crops. Many emigres went on to provide cheap labor in England and the
 population is 7.0 million. I'll stop political blogging now but this was a shock to me even though it's 
 common knowledge over there.
 
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220913_160612282.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220913_160612282.jpg") }}
 Kilmainham Jail, longtime symbol of British imperialism, where Connolly was kept and executed. 
 This nice-looking room was designed by perversely moralistic Victorian jailers. 
 </div>
 <button markdown="1" class="collapsible">more Dublin pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_131926938.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_131926938.jpg") }}
 2 nice trees on the Trinity college campus. very old (>200 years?)
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_121436136.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_121436136.jpg") }}
 this is apparently what pigeons do when it is raining outside
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_135005215.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_135005215.jpg") }}
 Irish declaration of independence in the Old Library. notably less radical than the American one, 
 and the first thing a comrade said was it was a shame Connolly put his name on it lol :/
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_143809183.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_143809183.jpg") }}
 Jim Larkin, founder of the Irish Labour Party and revolutionary socialist along with Connolly.
 Both statues in central Dublin. 
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_174349615.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_174349615.jpg") }}
 Socialist Party office. good posters
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220912_174400120.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_174400120.jpg") }}
 Socialist Party office. good working bookshelf
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220913_161745587.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220913_161745587.jpg") }}
 Kilmainham jail courtyard
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220913_162618715.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220913_162618715.jpg") }}
 Kilmainham jail stone breaking courtyard (form of punishment) and firing squad location
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220913_162937607.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220913_162937607.jpg") }}
 the people who made the jail were evil and you can tell they wanted that to be known.
-{{ link_img("/images/2022-9-10-Dublin/PXL_20220911_072649654~2.jpg") }}
+{{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220911_072649654~2.jpg") }}
 first thing I saw in Ireland at the airport... evangelical style comic sans religious poster. bad
 </p>
 </div>
@@ -77,59 +78,59 @@ We spent most of a day on Inis Mor, the biggest of the Aran islands, biking arou
 From this point onwards we had perfect weather.
 
 <div markdown="1">
-{{ link_img("/images/PXL_20220915_182532216-cliffs-of-moher.jpg") }}
+{{ lazy_link_img("/images/PXL_20220915_182532216-cliffs-of-moher.jpg") }}
 Cliffs of Moher at golden hour
-{{ link_img("/images/PXL_20220915_134340733-dun-aonghasa-cliff.jpg") }}
+{{ lazy_link_img("/images/PXL_20220915_134340733-dun-aonghasa-cliff.jpg") }}
 Cliff view from Dun Aonghasa on Inis Mor, one of a number of mortarless stacked stone forts build from 500-800 AD on the islands.
 The back half of the fort has been slowly falling off into the sea.
-{{ link_img("/images/PXL_20220915_134845281-dun-aonghasa-selfie.jpg") }}
+{{ lazy_link_img("/images/PXL_20220915_134845281-dun-aonghasa-selfie.jpg") }}
 it's us
-{{ link_img("/images/PXL_20220915_114850122-inis-more-fort.jpg") }}
+{{ lazy_link_img("/images/PXL_20220915_114850122-inis-more-fort.jpg") }}
 Ruined fort on Inis Mor built around 1800 by the British to see if Napoleon was invading and light a series of torches like in lord of the rings.
 There's another one between the islands and the cliffs and another 1 or 2 on the cliffs.
 </div>
 <button markdown="1" class="collapsible">more Doolin pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_110652056.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_110652056.jpg") }}
 most of Inis Mor looked like this and we bushwhacked through it to get to this stone fort, Dun Eochla.
 you do not want to do be doing this with arrows raining down on you
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_111854655.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_111854655.jpg") }}
 water containment facility disguised as a fort?
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_113325778.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_113325778.PANO.jpg") }}
 Dun Eochla pano
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_110545482.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_110545482.jpg") }}
 mortarless walls (a lot of these structures are original I think but hard to tell what)
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_113610344.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_113610344.jpg") }}
 Dun Eochla
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_113416859.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_113416859.jpg") }}
 1800ish fort again. we really struggled to get over there.
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_115317874.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_115317874.jpg") }}
 inside the 1800ish fort
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_125536227.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_125536227.jpg") }}
 you can see the middle half or two thirds of Inis Mor here. 
 in the distance on the left of the cliff is Dun Aonghasa which was our biking destination
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_131359989.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_131359989.jpg") }}
 animals
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_134450209.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_134450209.jpg") }}
 inside Dun Aonghasa at the edge
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_135422110.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_135422110.jpg") }}
 view from Dun Aonghasa back toward where we came from
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_154937883.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_154937883.jpg") }}
 ferry back to Doolin, cliffs of Moher catching the sun.
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_160042927.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_160042927.jpg") }}
 I love how the farming plots are laid out in view on the hillside.
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_182817825.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_182817825.jpg") }}
 cliffs. SA swag. Atlantic ocean bay on the left
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_183052624.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_183052624.jpg") }}
 more bay, animals, windmills
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_184052642.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_184052642.jpg") }}
 closeup of some kind of plant
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220915_184400657.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220915_184400657.jpg") }}
 some other kind of plant, sun fell behind the clouds on the horizon.
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220916_100920847.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220916_100920847.jpg") }}
 shot of Doolin from a little east/inland, coming down the hill from the rural airbnb we stayed at. clouds on the move.
-{{ link_img("/images/2022-9-14-Doolin/PXL_20220916_100534911.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-14-Doolin/PXL_20220916_100534911.PANO.jpg") }}
 pano of same
 </p>
 </div>
@@ -144,17 +145,17 @@ ID to move anywhere around the city or go to work. The workers took power and ra
 printing their own money.
 
 <div markdown="1">
-{{ link_img("/images/PXL_20220916_123228886-limerick-river-shannon.jpg") }}
+{{ lazy_link_img("/images/PXL_20220916_123228886-limerick-river-shannon.jpg") }}
 River Shannon/downtown Limerick. 
-{{ link_img("/images/PXL_20220916_125253182-thurmond-bridge.jpg") }}
+{{ lazy_link_img("/images/PXL_20220916_125253182-thurmond-bridge.jpg") }}
 Thomond bridge with King John's Castle past it. 
 </div>
 <button markdown="1" class="collapsible">more Limerick pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-16.1-Limerick/PXL_20220916_125256342.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.1-Limerick/PXL_20220916_125256342.jpg") }}
 river Shannon again
-{{ link_img("/images/2022-9-16.1-Limerick/PXL_20220916_124330551.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.1-Limerick/PXL_20220916_124330551.jpg") }}
 plaque in Robert Byrne park (martyr whose death led to the soviet)
 </p>
 </div>
@@ -165,63 +166,63 @@ We spent 2 nights on the Dingle peninsula. There is a road around it called Slea
 that offers nonstop stunning landscape views and some historical stuff.
 
 <div markdown="1">
-{{ link_img("/images/PXL_20220917_145233837-inis-mor.jpg") }}
+{{ lazy_link_img("/images/PXL_20220917_145233837-inis-mor.jpg") }}
 enclosed "beehive" huts were made by stacking rocks without mortar again, and also date 500-800 AD I think.
 This view is east inland from the south of the peninsula.
-{{ link_img("/images/PXL_20220917_170602492-lichen-closeup.jpg") }}
+{{ lazy_link_img("/images/PXL_20220917_170602492-lichen-closeup.jpg") }}
 pretty lichen on a rock
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170214220.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170214220.jpg") }}
 off the west coast to islands
-{{ link_img("/images/PXL_20220917_172258390-cute-pic.jpg") }}
+{{ lazy_link_img("/images/PXL_20220917_172258390-cute-pic.jpg") }}
 I like this picture a lot
-{{ link_img("/images/PXL_20220917_181325560-dingle-shore.jpg") }}
+{{ lazy_link_img("/images/PXL_20220917_181325560-dingle-shore.jpg") }}
 Lots of hills, pastures, cliffs, shoreline.
 </div>
 <button markdown="1" class="collapsible">more Dingle pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220916_173916308.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_173916308.jpg") }}
 this is inch beach on the drive down into the peninsula
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220916_174344738.PANO.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220916_180320715.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_174344738.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_180320715.PANO.jpg") }}
 inch beach visible on the left
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_145023255.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_145023255.jpg") }}
 inside a beehive hut
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_145157835.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_145157835.jpg") }}
 500 AD peasant guy voice: I will not live in the hut. I will not eat the sheep from the rock enclosures.<br>
 1200 AD peasant guy voice: this is what they took from you.
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_151309893.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_151309893.jpg") }}
 lots of Slea Head drive pics from around this beach/peninsula.
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_160044344.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_162820009.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_160044344.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_162820009.PANO.jpg") }}
 Ireland viewed from the tip of the peninsula
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_162933159.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_164143068.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_164443510.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_162933159.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_164143068.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_164443510.jpg") }}
 a seal is hanging out in the foam.
-{{ link_img("/images/PXL_20220917_162304991-drone-guy.jpg") }}
+{{ lazy_link_img("/images/PXL_20220917_162304991-drone-guy.jpg") }}
 I took this picture because this guy was annoying us with his drone but it looks nice anyway
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170307382.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170426578.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170307382.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_170426578.jpg") }}
 more pretty lichen
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181126124.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181126124.jpg") }}
 now looking back at the tip we were on from the north
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181303897.PANO.jpg") }}
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181859579.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181303897.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181859579.jpg") }}
 using the binocs
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_183929924.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_183929924.jpg") }}
 now looking to the north. I think that is Mt Brandon?
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184527413.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184527413.jpg") }}
 I couldn't decide which of these last two similar shots to delete
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184501809.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184501809.PANO.jpg") }}
 the 360 panoramas look really cool on my phone but idk how to do that on here.
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220917_185543532.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_185543532.jpg") }}
 sunset selfie
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234303360.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234303360.jpg") }}
 night sky in Dingle after listening to music. my phone has a nice long exposure night shot setting.
 the Milky Way was clearly visible irl and you can see a bit of the cloudy haze in this shot.
 this was even with the moon half full. Ursa Minor on the right side I think
-{{ link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234730401.jpg") }}
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234730401.jpg") }}
 the big dipper was really bright.
 </p>
 </div>
@@ -235,50 +236,50 @@ renting bikes to ride around it was perfect. We also had our first overcast afte
 nice change of pace.
 
 <div markdown="1">
-{{ link_img("/images/PXL_20220918_121208456-muckross-abbey.jpg") }}
+{{ lazy_link_img("/images/PXL_20220918_121208456-muckross-abbey.jpg") }}
 Muckross Abbey, built 1448, with 3 floors to walk around. unexpectedly very cool
-{{ link_img("/images/PXL_20220918_122849430-muckross-abbey-tree.jpg") }}
+{{ lazy_link_img("/images/PXL_20220918_122849430-muckross-abbey-tree.jpg") }}
 internal courtyard tree, very cool
-{{ link_img("/images/PXL_20220918_134001295-lake-muckross.jpg") }}
+{{ lazy_link_img("/images/PXL_20220918_134001295-lake-muckross.jpg") }}
 Lake Muckross, sun peeking through
-{{ link_img("/images/PXL_20220918_141117312-killarney-tree.jpg") }}
+{{ lazy_link_img("/images/PXL_20220918_141117312-killarney-tree.jpg") }}
 tree on stream. the ripples in the water are caused by little water bugs, not rain
-{{ link_img("/images/PXL_20220918_142632453-old-weir-bridge.jpg") }}
+{{ lazy_link_img("/images/PXL_20220918_142632453-old-weir-bridge.jpg") }}
 Old Weir Bridge in the distance
 </div>
 <button markdown="1" class="collapsible">more Killarney pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_121351134.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121351134.jpg") }}
 abbey stuff
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_121411698.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121411698.jpg") }}
 no idea what this is
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_121448742.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_121718733.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121448742.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121718733.jpg") }}
 stone spiral staircase, very cool
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_121940876.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_122104688.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_122343910.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_134235290.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121940876.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_122104688.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_122343910.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_134235290.jpg") }}
 very spikey!
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_141214653.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_141214653.jpg") }}
 ferns by a stream
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_141250716.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_141250716.jpg") }}
 dead tree
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_142451253.TS.mp4") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_142451253.TS.mp4") }}
 this is supposed to be a video of the water bugs by the tree but it doesn't load right in the page atm.
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_145451034.PANO.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_153314020.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_145451034.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_153314020.jpg") }}
 we rented kind of terrible heavy bikes (get real touring ones for 5e more instead). 
 then to avoid the road we took this hiking trail which got pretty steep in a couple places.
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_155632218.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_155632218.jpg") }}
 mossy trees. very PNW-like forest.
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_161635328.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_161635328.jpg") }}
 waterfall
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_164404043.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_164404043.jpg") }}
 ferns growing out of a tree branch
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_163042210.PANO.jpg") }}
-{{ link_img("/images/2022-9-18-Killarney/PXL_20220918_162824704.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_163042210.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_162824704.jpg") }}
 </p>
 </div>
 
@@ -289,51 +290,51 @@ in the middle ages but not expanding a huge amount more (I think?) since. From 1
 Irish self-government beyond the British-controlled Pale.
 
 <div markdown="1">
-{{ link_img("/images/PXL_20220919_162823790-kilkenny-river-nore.jpg") }}
+{{ lazy_link_img("/images/PXL_20220919_162823790-kilkenny-river-nore.jpg") }}
 the river Nore
-{{ link_img("/images/PXL_20220920_111525801-black-abbey.jpg") }}
+{{ lazy_link_img("/images/PXL_20220920_111525801-black-abbey.jpg") }}
 the Black Abbey
-{{ link_img("/images/PXL_20220920_123830226-st-canice-cathedral-glass.jpg") }}
+{{ lazy_link_img("/images/PXL_20220920_123830226-st-canice-cathedral-glass.jpg") }}
 stained glass in the Cathedral of St Canice
-{{ link_img("/images/PXL_20220920_124439221-st-canice-cathedral-tower.jpg") }}
+{{ lazy_link_img("/images/PXL_20220920_124439221-st-canice-cathedral-tower.jpg") }}
 outside of the Cathedral of St Canice. lots of very Dark Souls vibes around here
-{{ link_img("/images/PXL_20220920_133548546-kilkenny-castle.jpg") }}
+{{ lazy_link_img("/images/PXL_20220920_133548546-kilkenny-castle.jpg") }}
 Kilkenny Castle view from outside. It's open because the 4th wall was destroyed by Cromwell in 1949
 </div>
 <button markdown="1" class="collapsible">more Kilkenny pics</button> 
 <div markdown="1" class="content">
 <p markdown="1">
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220919_145202013.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_145202013.jpg") }}
 I forgot which church this is
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220919_164616723.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_164616723.jpg") }}
 Padua, house where my grandmother grew up.
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220919_171642005.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_171642005.jpg") }}
 Kilkenny Castle down the river
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220919_182210717.jpg") }}
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220919_183438091.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_182210717.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_183438091.jpg") }}
 more river
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_110934700.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_110934700.jpg") }}
 inside the Black Abbey
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_111138686.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_111138686.jpg") }}
 outside the Black Abbey
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_122937489.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_122937489.jpg") }}
 St Canice
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_124431913.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_124431913.jpg") }}
 St Canice again
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_125749135.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_125749135.jpg") }}
 St Canice again
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_125927000.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_125927000.jpg") }}
 in the tower
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_130232400.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_130232400.jpg") }}
 skyline from the tower
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_130250526.jpg") }}
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_133128654.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_130250526.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_133128654.jpg") }}
 river walkway by the castle, downtown
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_133608700.PANO.jpg") }}
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_134231368.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_133608700.PANO.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_134231368.jpg") }}
 castle rose garden, however, it is inferior to Raleigh's and you can't even 
 walk on the grass to smell them. to be fair to Kilkenny we don't have a castle 
-{{ link_img("/images/2022-9-19-Kilkenny/PXL_20220920_134533186.jpg") }}
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_134533186.jpg") }}
 </p>
 </div>
 
@@ -344,6 +345,6 @@ I thought this view was really cool, the big ocean waves are visible. It was abo
 outside the plane.
 
 <div markdown="1">
-{{ link_img("/images/2022-9-22-plane/PXL_20220921_114027093.jpg") }}
-{{ link_img("/images/2022-9-22-plane/PXL_20220921_113809325.jpg") }}
+{{ lazy_link_img("/images/2022-9-22-plane/PXL_20220921_114027093.jpg") }}
+{{ lazy_link_img("/images/2022-9-22-plane/PXL_20220921_113809325.jpg") }}
 </div>

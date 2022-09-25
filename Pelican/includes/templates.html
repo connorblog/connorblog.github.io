@@ -14,7 +14,15 @@
 <img alt="{{ img }}" src="{{ img }}" title="{{ img }}">
 </a>
 </p>
+{%- endmacro %}
 
+{% macro lazy_link_img(img) -%}
+<p markdown="1">
+<br>
+<a href="{{ img }}" target="_blank">
+<img alt="{{ img }}" src="/images/blank.png" title="{{ img }}", data-echo={{ img }}>
+</a>
+</p>
 {%- endmacro %}
 
 
