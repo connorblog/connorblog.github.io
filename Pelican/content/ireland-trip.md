@@ -8,12 +8,12 @@ Slug: ireland-trip
 {% from 'templates.html' import test %}
 
 Trillian and I visited Ireland for 10 days and I took enough cool pictures that I wanted to share them 
-in a nice way and not on social media which are all annoying in their own ways... so I used this as an 
-excuse to set up a blog website which I've wanted to do for a while.
+in a nice way and not on social media sites which are all annoying in their own ways... so I used this 
+as an excuse to set up a blog website which I've wanted to do for a while.
 
 We saw my family, mostly first cousins of my mom (Tim, Donal, Pamela, Tracy, Tara) and their families, 
 which was really great. We also hung out with Socialist Party of Ireland members (ISA) and went to a 
-branch meeting. This kept the trip a good mix of seeing sights and people.
+branch meeting. The trip was a really nice mix of seeing sights and people.
 
 I took these pictures on my Pixel 6. You can click on them to view them fullscreen/full res.
 
@@ -21,27 +21,30 @@ I took these pictures on my Pixel 6. You can click on them to view them fullscre
 
 Dublin was the least picturesque area but still cool. We also had our only rainy day here. 
 We spent two and a half days before getting the car and driving around. 
-Driving was terrifying btw and I thought I was going to die before we realized to avoid small rural roads that have an
-80 km/h speed limit but don't even fit 2 cars (or worse, fit 2 cars with literally less than 2 feet total extra space).
+Driving was terrifying btw and I thought I was going to die before we started to avoid small rural roads that have an
+80 km/h speed limit but don't even fit 2 cars (or worse, fit 2 cars with literally less than 2 feet total buffer space
+between the cars and hedges, cliffs, or stone walls).
 
 <div markdown="1">
 {{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220912_134728187.jpg") }}
-the Old Library at Trinity college. lots of very old books incl the Book of Kells from 800 AD. prob not worth the admission fee
+The Old Library at Trinity college. lots of very old books incl the Book of Kells from 800 AD. Prob not worth the admission fee.
 {{ lazy_link_img("/images/PXL_20220912_142613545-Connolly.jpg") }}
 James Connolly, revolutionary socialist and trade unionist, martyred during the Easter Rising.
 The Big Dipper behind him as a plow symbolizes that labour should own everything up to the stars. Pretty cool.
 
-On this trip I learned that during the Great Famine, more food was actually produced than needed to feed 
-the Irish people, but the British ruling class exported it by force. <a href="https://www.socialistparty.ie/2022/03/an-gorta-mor-the-legacy-of-the-irish-famine/">Ireland is one of the only places in the world today with a small population than it had in 1845.</a> The population of the total island was 8.2 million then, but over the course of the famine over 1 million 
-died and 3 million eventually emigrated. The British ruling class and local capitalists used the opportunity 
-to intentionally depopulate the formerly self-sustaining rural areas and replace them with cattle farming and 
-industrial crops. Many emigres went on to provide cheap labor in England and the US, and today the combined 
-population is 7.0 million. I'll stop political blogging now but this was a shock to me even though it's 
-common knowledge over there.
-
 {{ lazy_link_img("/images/2022-9-10-Dublin/PXL_20220913_160612282.jpg") }}
 Kilmainham Jail, longtime symbol of British imperialism, where Connolly was kept and executed. 
 This nice-looking room was designed by perversely moralistic Victorian jailers. 
+
+On this trip I learned that during the Great Famine, more food was actually produced than needed to feed 
+the Irish people, but the British ruling class exported it by force. 
+<a href="https://www.socialistparty.ie/2022/03/an-gorta-mor-the-legacy-of-the-irish-famine/">Ireland is one of the only places in the world today with a smaller population than it had in 1845.</a> 
+The population of the total island was 8.2 million then, but over the course of the famine over 1 million 
+died and 3 million eventually emigrated. The British ruling class and local capitalists used the 
+opportunity to intentionally depopulate the formerly self-sustaining rural areas and replace the 
+people with cattle farming and industrial crops. Many emigres went on to provide cheap labor in 
+England and the US, and today the combined Irish population is 7.0 million. 
+I'll stop political blogging now but this was a shock to me even though it's common knowledge over there.
 </div>
 <button markdown="1" class="collapsible">more Dublin pics</button> 
 <div markdown="1" class="content">
@@ -73,7 +76,7 @@ first thing I saw in Ireland at the airport... evangelical style comic sans reli
 
 ### Doolin
 
-Doolin and the area around it was awesome. We saw really cool trad music at a pub (McDermotts).
+Doolin and the area around it were awesome. We saw really cool trad music at a pub (McDermotts).
 We spent most of a day on Inis Mor, the biggest of the Aran islands, biking around. 
 From this point onwards we had perfect weather.
 
@@ -81,7 +84,7 @@ From this point onwards we had perfect weather.
 {{ lazy_link_img("/images/PXL_20220915_182532216-cliffs-of-moher.jpg") }}
 Cliffs of Moher at golden hour
 {{ lazy_link_img("/images/PXL_20220915_134340733-dun-aonghasa-cliff.jpg") }}
-Cliff view from Dun Aonghasa on Inis Mor, one of a number of mortarless stacked stone forts build from 500-800 AD on the islands.
+Cliff view from Dun Aonghasa on Inis Mor, one of a number of mortarless stacked stone forts built from 500-800 AD on the islands.
 The back half of the fort has been slowly falling off into the sea.
 {{ lazy_link_img("/images/PXL_20220915_134845281-dun-aonghasa-selfie.jpg") }}
 it's us
@@ -167,7 +170,7 @@ that offers nonstop stunning landscape views and some historical stuff.
 
 <div markdown="1">
 {{ lazy_link_img("/images/PXL_20220917_145233837-inis-mor.jpg") }}
-enclosed "beehive" huts were made by stacking rocks without mortar again, and also date 500-800 AD I think.
+enclosed "beehive" huts were made by stacking rocks without mortar again, and also date from 500-800 AD I think.
 This view is east inland from the south of the peninsula.
 {{ lazy_link_img("/images/PXL_20220917_170602492-lichen-closeup.jpg") }}
 pretty lichen on a rock
@@ -237,14 +240,14 @@ nice change of pace.
 <div markdown="1">
 {{ lazy_link_img("/images/PXL_20220918_121208456-muckross-abbey.jpg") }}
 Muckross Abbey, built 1448, with 3 floors to walk around. unexpectedly very cool
-{{ lazy_link_img("/images/PXL_20220918_122849430-muckross-abbey-tree.jpg") }}
-internal courtyard tree, very cool
 {{ lazy_link_img("/images/PXL_20220918_134001295-lake-muckross.jpg") }}
 Lake Muckross, sun peeking through
 {{ lazy_link_img("/images/PXL_20220918_141117312-killarney-tree.jpg") }}
-tree on stream. the ripples in the water are caused by little water bugs, not rain
+Tree on stream. the ripples in the water are caused by little water bugs, not rain
 {{ lazy_link_img("/images/PXL_20220918_142632453-old-weir-bridge.jpg") }}
 Old Weir Bridge in the distance
+{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_162824704.jpg") }}
+Trees just photograph well.
 </div>
 <button markdown="1" class="collapsible">more Killarney pics</button> 
 <div markdown="1" class="content">
@@ -258,6 +261,8 @@ no idea what this is
 stone spiral staircase, very cool
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_121940876.jpg") }}
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_122104688.jpg") }}
+internal courtyard tree, very cool
+{{ lazy_link_img("/images/PXL_20220918_122849430-muckross-abbey-tree.jpg") }}
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_122343910.jpg") }}
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_134235290.jpg") }}
 very spikey!
@@ -278,7 +283,6 @@ waterfall
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_164404043.jpg") }}
 ferns growing out of a tree branch
 {{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_163042210.PANO.jpg") }}
-{{ lazy_link_img("/images/2022-9-18-Killarney/PXL_20220918_162824704.jpg") }}
 </p>
 </div>
 
@@ -290,13 +294,11 @@ Irish self-government beyond the British-controlled Pale.
 
 <div markdown="1">
 {{ lazy_link_img("/images/PXL_20220919_162823790-kilkenny-river-nore.jpg") }}
-the river Nore
-{{ lazy_link_img("/images/PXL_20220920_111525801-black-abbey.jpg") }}
-the Black Abbey
-{{ lazy_link_img("/images/PXL_20220920_123830226-st-canice-cathedral-glass.jpg") }}
-stained glass in the Cathedral of St Canice
+The river Nore
 {{ lazy_link_img("/images/PXL_20220920_124439221-st-canice-cathedral-tower.jpg") }}
-outside of the Cathedral of St Canice. lots of very Dark Souls vibes around here
+Outside of the Cathedral of St Canice. lots of very Dark Souls vibes around here
+{{ lazy_link_img("/images/PXL_20220920_123830226-st-canice-cathedral-glass.jpg") }}
+Stained glass in the Cathedral of St Canice
 {{ lazy_link_img("/images/PXL_20220920_133548546-kilkenny-castle.jpg") }}
 Kilkenny Castle view from outside. It's open because the 4th wall was destroyed by Cromwell in 1949
 </div>
@@ -312,10 +314,12 @@ Kilkenny Castle down the river
 {{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_182210717.jpg") }}
 {{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220919_183438091.jpg") }}
 more river
-{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_110934700.jpg") }}
-inside the Black Abbey
+{{ lazy_link_img("/images/PXL_20220920_111525801-black-abbey.jpg") }}
+the Black Abbey
 {{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_111138686.jpg") }}
-outside the Black Abbey
+stained glass outside
+{{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_110934700.jpg") }}
+stained glass inside
 {{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_122937489.jpg") }}
 St Canice
 {{ lazy_link_img("/images/2022-9-19-Kilkenny/PXL_20220920_124431913.jpg") }}
@@ -337,7 +341,7 @@ walk on the grass to smell them. to be fair to Kilkenny we don't have a castle
 </p>
 </div>
 
-### The end
+### Plane
 
 It feels silly to take pictures from a plane window but I do it most of the time anyway. 
 I thought this view was really cool, the big ocean waves are visible. It was about -60F 
@@ -345,5 +349,10 @@ outside the plane.
 
 <div markdown="1">
 {{ lazy_link_img("/images/2022-9-22-plane/PXL_20220921_114027093.jpg") }}
+</div>
+
+<div markdown="1">
 {{ lazy_link_img("/images/2022-9-22-plane/PXL_20220921_113809325.jpg") }}
 </div>
+
+### The end
