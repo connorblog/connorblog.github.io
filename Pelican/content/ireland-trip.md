@@ -301,7 +301,7 @@ Outside of the Cathedral of St Canice. lots of very Dark Souls vibes around here
 {{ shrink_lazy_link_img("/images/", "PXL_20220920_123830226-st-canice-cathedral-glass.jpg") }}
 Stained glass in the Cathedral of St Canice
 {{ shrink_lazy_link_img("/images/", "PXL_20220920_133548546-kilkenny-castle.jpg") }}
-Kilkenny Castle view from outside. It's open because the 4th wall was destroyed by Cromwell in 1949
+Kilkenny Castle view from outside. It's open because its 4th wall was destroyed by Cromwell in 1649
 </div>
 <button markdown="1" class="collapsible">more Kilkenny pics</button> 
 <div markdown="1" class="content">
