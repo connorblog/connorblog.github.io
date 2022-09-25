@@ -54,27 +54,18 @@
         <div class="eleven columns">
                  <ol id="post-list">
                         <li><article class="hentry">
-                                <header> <h2 class="entry-title"><a href="/ireland.html" rel="bookmark" title="Permalink to Ireland Sep 2022">Ireland Sep 2022</a></h2> </header>
+                                <header> <h2 class="entry-title"><a href="/ireland-trip.html" rel="bookmark" title="Permalink to Ireland Trip September 2022">Ireland Trip September 2022</a></h2> </header>
                                 <footer class="post-info">
                                     <abbr class="published" title="2022-09-23T00:00:00-04:00"> Fri 23 September 2022 </abbr>
                                     <address class="vcard author">By 
                                     <a class="url fn" href="/author/connor.html"> Connor</a>
                                     </address>
                                 </footer><!-- /.post-info -->
-                                <div class="entry-content"> <p>[write intro here]</p>
-<ul>
-<li>you can click on pics to view them fullscreen and also expand sections for more pics.</li>
-<li>visited ireland for 10 days</li>
-</ul>
-<h3>Dublin</h3>
-<p>We had our only rainy day in Dublin.</p>
-<div>
-<p>
-<a class="mybox" href="/images/PXL_20220912_142613545-Connolly.jpg" title="James Connolly, martyred during the Easter Rising. Revolutionary socialist. The Big Dipper as a plow behind him as the plow symbolizes that labour should own everything up to the stars. Pretty cool."><img alt="image" data-echo="/images/PXL_20220912_142613545-Connolly.jpg" src="/images/blank.png" width="500px,"></a>
-<br>
-James Connolly, martyred during the Easter Rising. Revolutionary socialist. The Big Dipper as a plow behind him …</p></div> </div><!-- /.entry-content -->
+                                <div class="entry-content"> <p>Trillian and I visited Ireland for 10 days and I took enough cool pictures that I wanted to share them 
+in a nice way and not on social media which are all annoying in their own ways... so I used this as an 
+excuse to set up a blog website …</p> </div><!-- /.entry-content -->
 
-                                <div class="medium primary btn"><a href="/ireland.html" rel="bookmark" title="Permalink to Ireland Sep 2022">Read more <i class="icon-arrow-right"></i></a></div>
+                                <div class="medium primary btn"><a href="/ireland-trip.html" rel="bookmark" title="Permalink to Ireland Trip September 2022">Read more <i class="icon-arrow-right"></i></a></div>
 
 
 
@@ -331,6 +322,9 @@ James Connolly, martyred during the Easter Rising. Revolutionary socialist. The 
 </script>
 
 <!-- Trying to insert the collapse js function from here https://www.w3schools.com/howto/howto_js_collapsible.asp -->
+<!-- NOTE: there is a bug where if an image isn't pre-loaded, it won't expand the section the right amount. -->
+<!--     my solution atm is to give sections a very high max height-->
+
 <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -342,7 +336,7 @@ for (i = 0; i < coll.length; i++) {
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.maxHeight = content.scrollHeight*10 + "px";
     } 
   });
 }

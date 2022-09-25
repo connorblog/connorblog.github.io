@@ -1,10 +1,8 @@
 
-{% macro lightbox_img(img, caption='', width=500) -%}
+{% macro lightbox_img(img, width=800) -%}
 <p markdown="1">
-[![image]({static}/images/blank.png){:width={{ width }}px, data-echo={{ img }}}]({static}{{ img }} "{{ caption }}"){class="mybox"}
 <br>
-{{ caption }} 
-<br>
+[![image]({static}/images/blank.png){:width={{ width }}px, data-echo={{ img }}}]({static}{{ img }} "{{ img }}"){class="mybox"}
 </p>
 
 {%- endmacro %}
