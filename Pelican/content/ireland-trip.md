@@ -8,6 +8,8 @@ Slug: ireland-trip
 {% from 'templates.html' import shrink_lazy_link_img %}
 {% from 'templates.html' import test %}
 
+{{ shrink_lazy_link_img("/images/", "PXL_20220915_182532216-cliffs-of-moher-banner.jpg") }}
+
 Trillian and I visited Ireland for 10 days and I took enough cool pictures that I wanted to share them 
 in a nice way and not on social media sites which are all annoying in their own ways... so I used this 
 as an excuse to set up a blog website which I've wanted to do for a while.
@@ -16,7 +18,8 @@ We saw my family, mostly first cousins of my mom (Tim, Donal, Pamela, Tracy, Tar
 which was really great. We also hung out with Socialist Party of Ireland members (ISA) and went to a 
 branch meeting. The trip was a really nice mix of seeing sights and people.
 
-I took these pictures on my Pixel 6. You can click on them to view them fullscreen/full res.
+You can click on the pictures to view the full res versions, and expand the bottom of sections to see more.
+I took them on my Pixel 6. 
 
 ### Dublin
 
@@ -28,13 +31,13 @@ between the cars and hedges, cliffs, or stone walls).
 
 <div markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-10-Dublin/", "PXL_20220912_134728187.jpg") }}
-The Old Library at Trinity college. lots of very old books incl the Book of Kells from 800 AD. Prob not worth the admission fee.
+The Old Library at Trinity college. Lots of very old books incl the Book of Kells from 800 AD. Prob not worth the admission fee.
 {{ shrink_lazy_link_img("/images/", "PXL_20220912_142613545-Connolly.jpg") }}
 James Connolly, revolutionary socialist and trade unionist, martyred during the Easter Rising.
 The Big Dipper behind him as a plow symbolizes that labour should own everything up to the stars. Pretty cool.
 
 {{ shrink_lazy_link_img("/images/2022-9-10-Dublin/", "PXL_20220913_160612282.jpg") }}
-Kilmainham Jail, longtime symbol of British imperialism, where Connolly was kept and executed. 
+Kilmainham Jail, longtime symbol of British imperialism, where the Easter Rising leaders were held and Connolly was kept and executed. 
 This nice-looking room was designed by perversely moralistic Victorian jailers. 
 
 On this trip I learned that during the Great Famine, more food was actually produced than needed to feed 
@@ -47,7 +50,7 @@ people with cattle farming and industrial crops. Many emigres went on to provide
 England and the US, and today the combined Irish population is 7.0 million. 
 I'll stop political blogging now but this was a shock to me even though it's common knowledge over there.
 </div>
-<button markdown="1" class="collapsible">more Dublin pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Dublin pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-10-Dublin/", "PXL_20220912_131926938.jpg") }}
@@ -93,7 +96,7 @@ it's us
 Ruined fort on Inis Mor built around 1800 by the British to see if Napoleon was invading and light a series of torches like in lord of the rings.
 There's another one between the islands and the cliffs and another 1 or 2 on the cliffs.
 </div>
-<button markdown="1" class="collapsible">more Doolin pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Doolin pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-14-Doolin/", "PXL_20220915_110652056.jpg") }}
@@ -154,7 +157,7 @@ River Shannon/downtown Limerick.
 {{ shrink_lazy_link_img("/images/", "PXL_20220916_125253182-thurmond-bridge.jpg") }}
 Thomond bridge with King John's Castle past it. 
 </div>
-<button markdown="1" class="collapsible">more Limerick pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Limerick pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-16.1-Limerick/", "PXL_20220916_125256342.jpg") }}
@@ -171,18 +174,18 @@ that offers nonstop stunning landscape views and some historical stuff.
 
 <div markdown="1">
 {{ shrink_lazy_link_img("/images/", "PXL_20220917_145233837-inis-mor.jpg") }}
-enclosed "beehive" huts were made by stacking rocks without mortar again, and also date from 500-800 AD I think.
+Enclosed "beehive" huts were made by stacking rocks without mortar again, and also date from 500-800 AD I think.
 This view is east inland from the south of the peninsula.
 {{ shrink_lazy_link_img("/images/", "PXL_20220917_170602492-lichen-closeup.jpg") }}
-pretty lichen on a rock
+Pretty lichen on a rock
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_170214220.jpg") }}
-off the west coast to islands
+Off the west coast to islands
 {{ shrink_lazy_link_img("/images/", "PXL_20220917_172258390-cute-pic.jpg") }}
 I like this picture a lot
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220917_183929924.jpg") }}
 Looking to the north from the western side. I think that is Mt Brandon
 </div>
-<button markdown="1" class="collapsible">more Dingle pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Dingle pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-16.2-Dingle/", "PXL_20220916_173916308.jpg") }}
@@ -244,13 +247,13 @@ Muckross Abbey, built 1448, with 3 floors to walk around. unexpectedly very cool
 {{ shrink_lazy_link_img("/images/", "PXL_20220918_134001295-lake-muckross.jpg") }}
 Lake Muckross, sun peeking through
 {{ shrink_lazy_link_img("/images/", "PXL_20220918_141117312-killarney-tree.jpg") }}
-Tree on stream. the ripples in the water are caused by little water bugs, not rain
+Tree on stream. The ripples in the water are caused by little water bugs, not rain
 {{ shrink_lazy_link_img("/images/", "PXL_20220918_142632453-old-weir-bridge.jpg") }}
 Old Weir Bridge in the distance
 {{ shrink_lazy_link_img("/images/2022-9-18-Killarney/", "PXL_20220918_162824704.jpg") }}
 Trees just photograph well.
 </div>
-<button markdown="1" class="collapsible">more Killarney pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Killarney pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-18-Killarney/", "PXL_20220918_121351134.jpg") }}
@@ -303,7 +306,7 @@ Stained glass in the Cathedral of St Canice
 {{ shrink_lazy_link_img("/images/", "PXL_20220920_133548546-kilkenny-castle.jpg") }}
 Kilkenny Castle view from outside. It's open because its 4th wall was destroyed by Cromwell in 1649
 </div>
-<button markdown="1" class="collapsible">more Kilkenny pics</button> 
+<h5><button markdown="1" class="collapsible"><b>more Kilkenny pics --></b></button></h5>
 <div markdown="1" class="content">
 <p markdown="1">
 {{ shrink_lazy_link_img("/images/2022-9-19-Kilkenny/", "PXL_20220919_145202013.jpg") }}
