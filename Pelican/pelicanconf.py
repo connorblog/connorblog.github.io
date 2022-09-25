@@ -20,7 +20,17 @@ THEME = "/home/connor/dev/connorblog.github.io/Pelican/themes/gum/"
 PLUGIN_PATHS = ["plugins"]
 PLUGINS = [
     "pelican.plugins.jinja2content",
+    "pelican.plugins.image_process",
 ]
+
+# image-process plugin
+
+IMAGE_PROCESS = {
+    "article-image": {
+        "type": "image",
+        "ops": ["scale_in 50% 50% False"],
+    }
+}
 
 # jinja2content plugin
 JINJA2CONTENT_TEMPLATES = ["../includes"]

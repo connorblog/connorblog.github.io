@@ -25,6 +25,17 @@
 </p>
 {%- endmacro %}
 
+{% macro shrink_lazy_link_img(img_folder, img_file) -%}
+<!-- NOTE: there is a bug where the image-process plugin won't fix the data-echo tag. -->
+<!--   my workaround is to manually modify it. -->
+<p markdown="1">
+<br>
+<a href="{{ img_folder }}{{ img_file }}" target="_blank">
+  <img class="image-process-article-image" alt="{{ img_folder }}{{ img_file }}" src="{{ img_folder }}{{ img_file }}" title="{{ img_folder }}{{ img_file }}", data-echo={{ img_folder }}derivatives/article-image/{{ img_file }}>
+</a>
+</p>
+{%- endmacro %}
+
 
 
 {% macro testlist(listinput) -%}
