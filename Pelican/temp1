@@ -1,0 +1,64 @@
+Title: Ireland Sep 2022
+Date: 2022-9-23
+Slug: ireland
+
+{% from 'templates.html' import lightbox_img %}
+
+[write intro here]
+
+- visited ireland for 10 days
+
+### Dublin
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+</div>
+<div markdown="1">
+<p markdown="1">open collapisble</p>
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+</p>
+</div>
+
+### Doolin
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+
+### Limerick
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+
+### Dingle
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+
+### Killarney
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+
+### Kilkenny
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+
+### Plane
+
+<div markdown="1">
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here", "collapseAfter") }}
+</div>
+

@@ -1,0 +1,35 @@
+
+{% macro lightbox_img(img, caption='', width=500) -%}
+<p markdown="1">
+[![image]({static}/images/blank.png){:width={{ width }}px, data-echo={{ img }}}]({static}{{ img }} "{{ caption }}"){class="mybox"}
+<br>
+{{ caption }} 
+<br>
+</p>
+
+{%- endmacro %}
+
+
+{% macro testlist(listinput) -%}
+
+{% for item in  listinput  %}
+<p> {{ item }} </p>
+{% endfor %} 
+
+{%- endmacro %}
+
+
+{% macro test() -%}
+<button markdown="1" class="collapsible">open collapsible</button> 
+<p markdown="1">
+<div markdown="1" class="content">
+<p markdown="1">
+{{ lightbox_img("/images/PXL_20220915_134845281.jpg", "caption goes here") }}
+{{ lightbox_img("/images/PXL_20220912_142613545.jpg", "caption goes here") }}
+</p>
+</p>
+</div>
+{%- endmacro %}
+
+<!-- old version of this: -->
+<!-- [![image]({static}{{ img }}){:width=500px}]({static}{{ img }} "{{ caption }}"){class="mybox"} -->

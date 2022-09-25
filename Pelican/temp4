@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        <link href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/colorbox.css" rel="stylesheet">
+        {% block head %}
+
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{%if FEED_ATOM_URL %}{{ FEED_ATOM_URL }}{% else %}{{ FEED_ATOM }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{% if FEED_RSS_URL %}{{ FEED_RSS_URL }}{% else %}{{ FEED_RSS }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_ATOM_URL %}{{ CATEGORY_FEED_ATOM_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS and category %}
+        <link href="{{ FEED_DOMAIN }}/{% if CATEGORY_FEED_RSS_URL %}{{ CATEGORY_FEED_RSS_URL.format(slug=category.slug) }}{% else %}{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        {% endif %}
+        {% if TAG_FEED_ATOM and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_ATOM_URL %}{{ TAG_FEED_ATOM_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_ATOM.format(slug=tag.slug) }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS and tag %}
+        <link href="{{ FEED_DOMAIN }}/{% if TAG_FEED_RSS_URL %}{{ TAG_FEED_RSS_URL.format(slug=tag.slug) }}{% else %}{{ TAG_FEED_RSS.format(slug=tag.slug) }}{% endif %}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/pygment.css" />
+
+        <script src="{{ SITEURL }}/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+          {% if GOOGLE_ANALYTICS_ID %}
+              <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', '{{ GOOGLE_ANALYTICS_ID }}', '{{ GOOGLE_ANALYTICS_SITENAME }}');
+                ga('send', 'pageview');
+
+              </script>
+          {% endif %}
+
+          {% if PIWIK_URL%}
+            <script type="text/javascript">
+                var _paq = _paq || [];
+                    _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                    (function() {
+                     var u=(("https:" == document.location.protocol) ? "https" : "http") + "://{{ PIWIK_URL }}/";
+                     _paq.push(['setTrackerUrl', u+'piwik.php']);
+                     _paq.push(['setSiteId', {{ PIWIK_ID }}]);
+                     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
+                     g.defer=true; g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+                 })();
+            </script>
+            <noscript><p><img src="http://{{ PIWIK_URL }}/piwik.php?idsite={{ PIWIK_ID }}" style="border:0;" alt="" /></p></noscript>
+          {% endif %}
+
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <li><a href="{{ SITEURL }}/">Home</a></li>
+
+            {% for title, link in MENUITEMS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in pages %}
+                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+              {% endfor %}
+            {% else %}
+              {% if DISPLAY_CATEGORIES_ON_MENU %}
+                {% for cat, null in categories %}
+                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                {% endfor %}
+              {% endif %}
+            {% endif %}
+
+              </ul>
+            </div>
+
+          {% block content %}
+
+          {% endblock %}
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+                {% if GITHUB_URL %}
+                <li><div class="btn primary"><a href="{{ GITHUB_URL }}" target="_blank">Github</a></div></li>
+                {% endif %}
+
+                {% if TWITTER_URL %}
+                <li><div class="btn twitter"><a href="{{ TWITTER_URL }}" target="_blank">Twitter</a></div></li>
+                {% endif %}
+
+                {% if FACEBOOK_URL %}
+                <li><div class="btn facebook"><a href="{{ FACEBOOK_URL }}" target="_blank">Facebook</a></div></li>
+                {% endif %}
+
+                {% if GOOGLEPLUS_URL %}
+                <li><div class="btn danger"><a href="{{ GOOGLEPLUS_URL }}" target="_blank">Google+</a></div></li>
+                {% endif %}
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+{% include 'disqus_script.html' %}
+{% include 'piwik.html' %}
+  <script src="{{ SITEURL }}/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="{{ SITEURL }}/theme/js/libs/gumby.min.js"></script>
+  <script src="{{ SITEURL }}/theme/js/plugins.js"></script>
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.min.js"></script>
+<!-- Make sure jquery is loaded first, then load colorbox -->
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/jquery.colorbox-min.js"></script>
+<script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/load-colorbox.js"></script>
+
+<!-- Lazyload inserted here (below) from https://jekyllcodex.org/without-plugin/lazy-loading/ -->
+<script>
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+      define(function() {
+        return factory(root);
+      });
+    } else if (typeof exports === 'object') {
+      module.exports = factory;
+    } else {
+      root.echo = factory(root);
+    }
+  })(this, function (root) {
+  
+    'use strict';
+  
+    var echo = {};
+  
+    var callback = function () {};
+  
+    var offset, poll, delay, useDebounce, unload;
+  
+    var isHidden = function (element) {
+      return (element.offsetParent === null);
+    };
+    
+    var inView = function (element, view) {
+      if (isHidden(element)) {
+        return false;
+      }
+  
+      var box = element.getBoundingClientRect();
+      return (box.right >= view.l && box.bottom >= view.t && box.left <= view.r && box.top <= view.b);
+    };
+  
+    var debounceOrThrottle = function () {
+      if(!useDebounce && !!poll) {
+        return;
+      }
+      clearTimeout(poll);
+      poll = setTimeout(function(){
+        echo.render();
+        poll = null;
+      }, delay);
+    };
+  
+    echo.init = function (opts) {
+      opts = opts || {};
+      var offsetAll = opts.offset || 0;
+      var offsetVertical = opts.offsetVertical || offsetAll;
+      var offsetHorizontal = opts.offsetHorizontal || offsetAll;
+      var optionToInt = function (opt, fallback) {
+        return parseInt(opt || fallback, 10);
+      };
+      offset = {
+        t: optionToInt(opts.offsetTop, offsetVertical),
+        b: optionToInt(opts.offsetBottom, offsetVertical),
+        l: optionToInt(opts.offsetLeft, offsetHorizontal),
+        r: optionToInt(opts.offsetRight, offsetHorizontal)
+      };
+      delay = optionToInt(opts.throttle, 250);
+      useDebounce = opts.debounce !== false;
+      unload = !!opts.unload;
+      callback = opts.callback || callback;
+      echo.render();
+      if (document.addEventListener) {
+        root.addEventListener('scroll', debounceOrThrottle, false);
+        root.addEventListener('load', debounceOrThrottle, false);
+      } else {
+        root.attachEvent('onscroll', debounceOrThrottle);
+        root.attachEvent('onload', debounceOrThrottle);
+      }
+    };
+  
+    echo.render = function (context) {
+      var nodes = (context || document).querySelectorAll('[data-echo], [data-echo-background]');
+      var length = nodes.length;
+      var src, elem;
+      var view = {
+        l: 0 - offset.l,
+        t: 0 - offset.t,
+        b: (root.innerHeight || document.documentElement.clientHeight) + offset.b,
+        r: (root.innerWidth || document.documentElement.clientWidth) + offset.r
+      };
+      for (var i = 0; i < length; i++) {
+        elem = nodes[i];
+        if (inView(elem, view)) {
+  
+          if (unload) {
+            elem.setAttribute('data-echo-placeholder', elem.src);
+          }
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + elem.getAttribute('data-echo-background') + ')';
+          }
+          else if (elem.src !== (src = elem.getAttribute('data-echo'))) {
+            elem.src = src;
+          }
+  
+          if (!unload) {
+            elem.removeAttribute('data-echo');
+            elem.removeAttribute('data-echo-background');
+          }
+  
+          callback(elem, 'load');
+        }
+        else if (unload && !!(src = elem.getAttribute('data-echo-placeholder'))) {
+  
+          if (elem.getAttribute('data-echo-background') !== null) {
+            elem.style.backgroundImage = 'url(' + src + ')';
+          }
+          else {
+            elem.src = src;
+          }
+  
+          elem.removeAttribute('data-echo-placeholder');
+          callback(elem, 'unload');
+        }
+      }
+      if (!length) {
+        echo.detach();
+      }
+    };
+  
+    echo.detach = function () {
+      if (document.removeEventListener) {
+        root.removeEventListener('scroll', debounceOrThrottle);
+      } else {
+        root.detachEvent('onscroll', debounceOrThrottle);
+      }
+      clearTimeout(poll);
+    };
+  
+    return echo;
+  
+  });
+</script>
+
+<!-- Trying to insert the collapse js function from here https://levelup.gitconnected.com/collapsible-sections-with-or-without-javascript-3fd871955a9d -->
+<script>
+(function() {
+  var collapseHooks = document.getElementsByClassName('collapseAfter');
+  for (var hook of collapseHooks) {
+    
+    var
+      wrap = hook.parentNode,
+      a = wrap.parentNode.insertBefore(
+        document.createElement('a'),
+        wrap.nextSibling
+      );
+    a.addEventListener('click', toggleCollapse, false);
+    a.className = 'collapseAnchor';
+    a.href="#"; /* without this it's not keyboard focusable */
+    wrap.classList.add('closed', 'collapseWrap');
+    
+  } // for hook
+  function toggleCollapse(e) {
+    e.preventDefault();
+    e.currentTarget.previousElementSibling.classList.toggle('closed');
+  } // toggleCollapse
+})();
+</script>
+
+
+<script>
+    echo.init({
+      offset: 2500,
+      throttle: 250,
+      unload: false,
+      callback: function (element, op) {
+        //console.log(element, 'has been', op + 'ed')
+      }
+    });
+</script>
+</body>
+</html>
