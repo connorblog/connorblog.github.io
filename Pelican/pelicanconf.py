@@ -26,10 +26,10 @@ PLUGINS = [
 # image-process plugin
 
 IMAGE_PROCESS = {
-    "article-image": {
+    "article": {
         "type": "image",
         "ops": ["scale_in 50% 50% False"],
-    }
+    },
 }
 
 # jinja2content plugin
