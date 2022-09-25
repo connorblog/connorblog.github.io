@@ -175,8 +175,8 @@ pretty lichen on a rock
 off the west coast to islands
 {{ lazy_link_img("/images/PXL_20220917_172258390-cute-pic.jpg") }}
 I like this picture a lot
-{{ lazy_link_img("/images/PXL_20220917_181325560-dingle-shore.jpg") }}
-Lots of hills, pastures, cliffs, shoreline.
+{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_183929924.jpg") }}
+Looking to the north from the western side. I think that is Mt Brandon
 </div>
 <button markdown="1" class="collapsible">more Dingle pics</button> 
 <div markdown="1" class="content">
@@ -210,17 +210,16 @@ now looking back at the tip we were on from the north
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181303897.PANO.jpg") }}
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_181859579.jpg") }}
 using the binocs
-{{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_183929924.jpg") }}
-now looking to the north. I think that is Mt Brandon?
+{{ lazy_link_img("/images/PXL_20220917_181325560-dingle-shore.jpg") }}
+lots of hills, pastures, cliffs, shoreline
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184527413.jpg") }}
-I couldn't decide which of these last two similar shots to delete
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_184501809.PANO.jpg") }}
-the 360 panoramas look really cool on my phone but idk how to do that on here.
+the 360 panoramas look cool on my phone but idk how to do that on here.
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220917_185543532.jpg") }}
 sunset selfie
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234303360.jpg") }}
 night sky in Dingle after listening to music. my phone has a nice long exposure night shot setting.
-the Milky Way was clearly visible irl and you can see a bit of the cloudy haze in this shot.
+the Milky Way was clearly visible irl and you can see the clouds of starlight a bit in this shot.
 this was even with the moon half full. Ursa Minor on the right side I think
 {{ lazy_link_img("/images/2022-9-16.2-Dingle/PXL_20220916_234730401.jpg") }}
 the big dipper was really bright.
