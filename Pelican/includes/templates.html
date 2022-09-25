@@ -7,6 +7,17 @@
 
 {%- endmacro %}
 
+{% macro link_img(img) -%}
+<p markdown="1">
+<br>
+<a href="{{ img }}" target="_blank">
+<img alt="{{ img }}" src="{{ img }}" title="{{ img }}">
+</a>
+</p>
+
+{%- endmacro %}
+
+
 
 {% macro testlist(listinput) -%}
 
